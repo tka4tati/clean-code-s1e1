@@ -13,42 +13,42 @@
       <section class="add-item">
         <label class="add-item__label" for="new-task">Add Item</label>
         <div class="add-item__wrapper">
-          <input class="task" id="new-task"  type="text">
-          <button class="add-btn">Add</button>
+          <input class="add-item__task task" id="new-task"  type="text">
+          <button class="add-btn btn">Add</button>
         </div>
       </section>
       <article class="do-list__wrapper">
-        <h3 class="do-list__title">Todo</h3>
-        <ul class="do-list">
-          <li class="do-list__item">
+        <h3 class="do-list__title title">Todo</h3>
+        <ul class="do-list list">
+          <li class="do-list__item list__item">
             <input class="checkbox" type="checkbox">
-            <label class="task" for="task">Pay Bills</label>
-            <input class="task" id="task" type="text" >
-            <button class="edit-btn">Edit</button>
-            <button class="delete-btn">
+            <label class="list__label task" for="task">Pay Bills</label>
+            <input class="list__task task" id="task" type="text" >
+            <button class="edit-btn btn">Edit</button>
+            <button class="delete-btn btn">
               <img class="delete-btn__img" src="./remove.svg" alt="remove button">
             </button>
           </li>
-          <li class="do-list__item_edit">
+          <li class="do-list__item_edit list__item">
             <input class="checkbox" type="checkbox">
-            <label class="task" for="task">Go Shopping</label>
-            <input class="task" type="text" id="task" value="Go Shopping" >
-            <button class="edit-btn">Save</button>
-            <button class="delete-btn">
+            <label class="list__label task" for="task">Go Shopping</label>
+            <input class="list__task task" type="text" id="task" value="Go Shopping" >
+            <button class="edit-btn btn">Save</button>
+            <button class="delete-btn btn">
               <img class="delete-btn__img" src="./remove.svg" alt="remove button">
             </button>
           </li>
         </ul>
       </article>
       <article class="done-list__wrapper">
-        <h3 class="done-list__title">Completed</h3>
-        <ul class="done-list">
-          <li class="done-list__item">
+        <h3 class="done-list__title title">Completed</h3>
+        <ul class="done-list list">
+          <li class="done-list__item list__item">
             <input class="checkbox"  type="checkbox" checked>
-            <label class="task" for="task">See the Doctor</label>
-            <input class="task" id="task" type="text">
-            <button class="edit-btn">Edit</button>
-            <button class="delete-btn">
+            <label class="list__label task" for="task">See the Doctor</label>
+            <input class="list__task task" id="task" type="text">
+            <button class="edit-btn btn">Edit</button>
+            <button class="delete-btn btn">
               <img class="delete-btn__img" src="./remove.svg" alt="remove button">
             </button>
           </li>
