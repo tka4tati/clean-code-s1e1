@@ -121,6 +121,7 @@ var taskCompleted=function(){
 
     //Append the task list item to the .done-list
     var listItem=this.parentNode;
+    listItem.setAttribute("class", "done-list__item list__item");
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
@@ -131,8 +132,9 @@ var taskIncomplete=function(){
     console.log("Incomplete Task...");
 //Mark task as incomplete.
     //When the checkbox is unchecked
-    //Append the task list item to the .d0-list
+    //Append the task list item to the .do-list
     var listItem=this.parentNode;
+    listItem.setAttribute("class", "do-list__item list__item");
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
 }
