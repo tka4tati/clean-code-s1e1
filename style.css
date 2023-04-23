@@ -26,10 +26,12 @@ input,button{
 .header__link{
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
-  .header  { text-align: center;
-}
+
+  .header  { 
+    text-align: center;
+  }
+
 }
 .main {
   display: block;
@@ -44,7 +46,6 @@ input,button{
 .add-item__wrapper {
   display: flex;
 }
-
 .btn {
   background: none;
   border: 0px;
@@ -57,6 +58,7 @@ input,button{
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title,
 .add-item__label{
@@ -101,7 +103,6 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +110,6 @@ input,button{
 .list__item > * {
   vertical-align: middle;
 }
-
 .checkbox {
   margin: 0 10px;
 }
@@ -141,12 +141,10 @@ input,button{
 .list__task {
   display:none
 }
-
 .do-list__item_edit > .list__task {
   display:inline-block;
   width:224px
 }
-
 .do-list__item_edit > .list__label {
   display:none;
 }
